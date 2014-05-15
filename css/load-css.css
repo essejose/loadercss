@@ -1,0 +1,86 @@
+  
+
+
+ .loading{
+ 	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	padding-top: 20%;
+
+	background: #666;
+	position: fixed;
+	color: white;
+	font-weight: bold;
+	z-index: 99999999;
+	opacity: 0.8;
+ }
+
+  .loader {
+  	margin: 5em auto;
+	font-size: 10px;
+	position: relative;
+	text-indent: -9999em;
+	border: 1.1em solid #000;
+	border-left: 1.1em solid #fff;
+	background: #fff;
+	-webkit-animation: loadcss 1.1s infinite linear;
+	animation: loadcss 1.1s infinite linear;
+
+  }
+  .loader,
+  .loader:after {
+  	border-radius: 50%;
+  	width: 1em;
+  	height: 1em;
+  }
+
+
+
+@-webkit-keyframes loadcss {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes loadcss {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes loadcss {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadcss {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
